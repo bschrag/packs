@@ -30,8 +30,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'code_ownership', '>= 1.33.0'
   spec.add_dependency 'packs-specification'
-  spec.add_dependency 'packwerk'
-  spec.add_dependency 'parse_packwerk', '>= 0.22.0'
   spec.add_dependency 'rainbow'
   spec.add_dependency 'sorbet-runtime'
   spec.add_dependency 'thor'
@@ -39,6 +37,8 @@ Gem::Specification.new do |spec|
 
   # rubocop:disable Gemspec/DevelopmentDependencies
   spec.add_development_dependency 'bundler', '~> 2.2'
+  spec.add_development_dependency 'packwerk'
+  spec.add_development_dependency 'parse_packwerk', '>= 0.22.0'
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'pry-byebug'
   spec.add_development_dependency 'rake'
